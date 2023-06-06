@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Kotlin Compose References</string>
+    <string name="alert_dialog_title">AlertDialog1</string>
+    <string name="alert_dialog_message">This is sample Alert 1</string>
+    <string name="confirm_button_text">Ok</string>
+    <string name="dismiss_button_text">Cancel</string>
 </resources>
