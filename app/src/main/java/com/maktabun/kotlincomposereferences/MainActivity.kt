@@ -15,7 +15,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.maktabun.kotlincomposereferences.composeRef.AlertDialog1
+import androidx.compose.ui.window.Popup
+import com.maktabun.kotlincomposereferences.composeRef.*
+import com.maktabun.kotlincomposereferences.kotlinLangRef.Function1
 import com.maktabun.kotlincomposereferences.ui.theme.KotlinComposeReferencesTheme
 
 class MainActivity : ComponentActivity() {
@@ -29,7 +31,9 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colors.background
                 ) {
                     Column {
-                        AlertDialog1()
+
+                        Function1()
+
                     }
 
                 }
