@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Column {
 
-                        Function1()
+                        Dropdown1()
 
                     }
 

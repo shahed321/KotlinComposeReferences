@@ -8,12 +8,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
-
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 
 @Composable
-fun Function1() {
+fun Function2(name: String, age: Int) {
     val count = remember { mutableStateOf(0) }
 
     Column {
@@ -21,5 +21,6 @@ fun Function1() {
         Button(onClick = { count.value++ }, modifier = Modifier.padding(16.dp)) {
             Text("Increment")
         }
+        Text("Hello, $name! You are $age years old.", modifier = Modifier.padding(16.dp))
     }
 }
